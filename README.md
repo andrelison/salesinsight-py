@@ -71,7 +71,7 @@ O Colab já tem pandas, numpy, matplotlib e seaborn instalados. O arquivo `venda
 
 ## Ferramentas utilizadas
 
-Python 3.10+
-Google Colab / VS Code
-Bibliotecas: pandas, numpy, matplotlib, seaborn, json, re, datetime, os, random
-Git e GitHub (branches main, develop, feat/pipeline-dados e docs/readme)
+- Python 3.10+
+- Google Colab / VS Code
+- Bibliotecas: pandas, numpy, matplotlib, seaborn, json, re, datetime, os, random
+- Git e GitHub (branches main, develop, feat/pipeline-dados e docs/readme)
