@@ -4,13 +4,13 @@ SalesInsight PY - Analise e visualização de dado de vendas com python.
 
 Aluno: Andrlelison Felipe Martins
 
-## Sobre o projeto:
+## Sobre o projeto
 
 O SalesInsight PY simula o trabalho de um analista de dados júnior de uma empresa de varejo. A partir de um histórico de vendas em CSV, o projeto carrega, limpa, transforma, agrega e visualiza os dados, gera insights para uma reunião de diretoria e exporta os resultados em CSV, JSON e PNG.
 
 Todo o fluxo está organizado em funções reutilizáveis e na classe AnalisadorDeVendas.
 
-## O que o projeto analisa:
+## O que o projeto analisa
 
 - Receita total, quantidade e número de vendas por mês
 - Top 5 produtos e receita por categoria
