@@ -69,7 +69,8 @@ Incluir uma projeção simples de tendência de receita.
 
 O Colab já tem pandas, numpy, matplotlib e seaborn instalados. O arquivo `vendas.csv` é gerado automaticamente na primeira execução, caso não exista.
 
-Ferramentas utilizadas
+## Ferramentas utilizadas
+
 Python 3.10+
 Google Colab / VS Code
 Bibliotecas: pandas, numpy, matplotlib, seaborn, json, re, datetime, os, random
