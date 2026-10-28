@@ -2,7 +2,7 @@
 
 SalesInsight PY - Analise e visualização de dado de vendas com python.
 
-Aluno: Andrlelison Felipe Martins
+Aluno: Andrelison Felipe Martins
 
 ## Sobre o projeto
 
