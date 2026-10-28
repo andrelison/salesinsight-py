@@ -44,16 +44,16 @@ Com o dataset sintético (seed=42), a execução produz:
 
 ## Decisões técnicas
 
-Datas inválidas são removidas, não mantidas. Sem data não é possível calcular mês, trimestre nem a série temporal, e manter essas linhas distorceria as agregações por período. O relatório de limpeza informa quantos registros foram descartados.
-Cada gráfico é uma função que desenha em um ax. Assim, a mesma função serve para a figura individual e para o painel 2×2, sem repetir código.
-mes_nome vem de um dicionário em português, porque strftime("%B") retorna o mês em inglês no Colab.
-seed=42 no gerador garante que qualquer pessoa reproduza exatamente os mesmos dados e resultados.
+- Datas inválidas são removidas, não mantidas. Sem data não é possível calcular mês, trimestre nem a série temporal, e manter essas linhas distorceria as agregações por período. O relatório de limpeza informa quantos registros foram descartados.
+- Cada gráfico é uma função que desenha em um ax. Assim, a mesma função serve para a figura individual e para o painel 2×2, sem repetir código.
+- mes_nome vem de um dicionário em português, porque strftime("%B") retorna o mês em inglês no Colab.
+- seed=42 no gerador garante que qualquer pessoa reproduza exatamente os mesmos dados e resultados.
 
 ## Possíveis melhorias
 
-Ajustar as faixas de Bronze, Prata e Ouro: com os limites atuais, a maioria dos clientes cai em Ouro.
-Agrupar por ano e mês, para funcionar com datas de mais de um ano (hoje todas são de 2025).
-Incluir uma projeção simples de tendência de receita.
+- Ajustar as faixas de Bronze, Prata e Ouro: com os limites atuais, a maioria dos clientes cai em Ouro.
+- Agrupar por ano e mês, para funcionar com datas de mais de um ano (hoje todas são de 2025).
+- Incluir uma projeção simples de tendência de receita.
 
 ## Como executar
 
